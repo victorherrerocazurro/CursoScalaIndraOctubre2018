@@ -15,3 +15,9 @@ De tal manera que creemos dos instancias de coche, con valores
 - Modelo: 316i
 
 Los arrancamos y los paramos.
+
+Validar que los campos no puedan ser null ni vacio (Case Class)
+
+OPCIONAL: Validar que no se ejecuta parar sin que se haya arrancado, ni que se arranque dos veces seguidas.
+
+Refactorizar la validacion con Objecto de compañia

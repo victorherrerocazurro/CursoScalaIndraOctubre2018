@@ -1,3 +1,9 @@
+package com {
+  package curso {
+
+  }
+}
+
 class Persona(var nombre: String, edad: Int) {
   //Constructor con un parametro
   def this(edad: Int) {
@@ -8,6 +14,20 @@ class Persona(var nombre: String, edad: Int) {
   }
   def this() {
     this("")
+  }
+
+  override def equals(that: Any): Boolean = that match {
+    case that: Persona => that.isInstanceOf[Persona] &&
+          this.nombre == that.asInstanceOf[Persona].nombre &&
+          this.edad == that.asInstanceOf[Persona].edad
+    case _ => false
+  }
+  override def hashCode: Int = {
+    val prime = 31
+    var result = 1
+    result = prime * result + edad;
+    result = prime * result + (if (nombre == null) 0 else nombre.hashCode)
+    return result
   }
 }
 

@@ -30,6 +30,28 @@ object HolaMundo {
 
     println (cliente.nombre)
 
+    //--------CASE CLASS
+
+    var c = TextField("Etquieta")
+
+    var f = TextField
+
+    //if-else-if
+  if(c.text == "Etquieta"){
+    print(c.text)
+  }
+
+
+    c match {
+      case TextField(text) if text == "Etquieta" => print(text)
+      case Button(text) => print(text)
+      case _ => print("No es un textfield")
+    }
+
+
+
+
+
   }
 }
 
