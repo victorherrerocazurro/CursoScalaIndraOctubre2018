@@ -1,0 +1,17 @@
+Definir una clase que modele un coche, donde las caracteristicas de los coches son:
+- Marca
+- Modelo
+
+Y las funcionalidades son
+- Arrancar: imprimir el texto "El $modelo de $marca arranco"
+- Parar: imprimir el texto "El $modelo de $marca paro"
+
+De tal manera que creemos dos instancias de coche, con valores
+
+- Marca: Audi
+- Modelo: A3
+
+- Marca: BMW
+- Modelo: 316i
+
+Los arrancamos y los paramos.
