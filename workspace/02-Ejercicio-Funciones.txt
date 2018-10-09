@@ -1,0 +1,20 @@
+Definir un algoritmo que cumpla con:
+
+"Procesar un formulario de tipo Peticion de Beca de estudios, validando los datos de entrada, realizando el calculo de la cuantia asignada, aprobando la concesion y notificando al peticionario".
+
+Beca: tiene como caracteristicas, titular, ganancias anuales, coste de los estudios.
+
+Validacion: No sean null, cantidades sean mayor que 0.
+
+Calculo: Si las ganacias son menores o iguales que 10000 la cuantia es del 100% del coste de los estudios.
+	Si las ganacias son mayores que 10000 y menores que 30000, la cuantia es de 50% del coste.
+	Si las ganacias son mayores o iguales que 30000 la cuantia es del 0%.
+
+Aprobacion: (De momento todo de aprueba) La idea es que se aprueba si hay fondos.
+
+Notificacion: Imprimir por consola la resolucion de la peticion, indicando si esta aprobado la cuantia asignada.
+
+(indicios para la resolucion: Emplear FP, funciones de orden mayor, lambdas, pattern matching)
+
+(Implementar con OO, esto se lo reserva el que corrige)
+
