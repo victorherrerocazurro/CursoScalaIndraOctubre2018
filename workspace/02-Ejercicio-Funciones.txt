@@ -4,7 +4,7 @@ Definir un algoritmo que cumpla con:
 
 Beca: tiene como caracteristicas, titular, ganancias anuales, coste de los estudios.
 
-Validacion: No sean null, cantidades sean mayor que 0.
+Validacion: No sean null, cantidades sean mayor que 0. De no realizarse correctamente la validacion, se denegará inmediatamente la peticion de beca.
 
 Calculo: Si las ganacias son menores o iguales que 10000 la cuantia es del 100% del coste de los estudios.
 	Si las ganacias son mayores que 10000 y menores que 30000, la cuantia es de 50% del coste.

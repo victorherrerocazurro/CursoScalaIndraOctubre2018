@@ -1,0 +1,4 @@
+Partiendo del ejercicio 4, implementar la funcionalidad de Notificacion con el API de Actores.
+
+
+Opcional: adaptando el mesaje recibido a distintos formatos.

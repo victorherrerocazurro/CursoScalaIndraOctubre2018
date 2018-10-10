@@ -44,7 +44,7 @@ object HolaMundo {
 
     c match {
       case TextField(text) if text == "Etquieta" => print(text)
-      case Button(text) => print(text)
+      //case Button(text) => print(text)
       case _ => print("No es un textfield")
     }
 

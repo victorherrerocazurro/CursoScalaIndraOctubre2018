@@ -8,6 +8,6 @@ object TextField {
   def apply(): TextField = new TextField("")
 }
 
-case class Button(texto : String) extends TextField(texto) {}
+case class Button(texto : String) extends Component {}
 
 case class Form(action: String) extends Component {}

@@ -4,7 +4,7 @@ package com {
   }
 }
 
-class Persona(var nombre: String, edad: Int) {
+class Persona(var nombre: String, var edad: Int) {
   //Constructor con un parametro
   def this(edad: Int) {
     this("", edad)

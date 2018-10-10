@@ -1,0 +1,7 @@
+Implementar la funcionalidad de drop(n), evidentemente sin hacer uso del metodo drop que proporciona scala.
+
+Iterable.drop(n)
+
+trait utilidadesListas {
+	def drop(Iterable, n)
+}
