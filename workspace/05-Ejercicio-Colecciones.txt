@@ -1,0 +1,10 @@
+A partir del ejecicio 2, leer de un fichero los datos de las solicitudes de Beca, aplicando el algoritmo previamente creado y volcando los resultados del procesamiento a otro fichero.
+
+Distintos formatos de fichero de entrada y de salida.
+
+
+----
+
+Contemplar que hay Becas que no definen datos economicos. en el fichero de entrada.
+
+Implementar el algoritmo de fondos de forma estatica en memoria.
